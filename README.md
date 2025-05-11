@@ -28,42 +28,7 @@ Experience the future of AI interaction with an intuitive, multi-modal chatbot a
 ├── Pipfile / Pipfile.lock # (For Pipenv users)
 └── README.md           # Project Guide
 ```
-
----
-
-## ⚙️ Installation Guide
-
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/AIwithhassan/ai-agent-chatbot-with-fastapi.git
-cd ai-agent-chatbot-with-fastapi
 ```
-
-### 2️⃣ Setup Virtual Environment (Choose One)
-
-**Using Pipenv**
-```bash
-pip install pipenv
-pipenv install
-pipenv shell
-```
-
-**Using pip + venv**
-```bash
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-pip install -r requirements.txt
-```
-
-**Using Conda**
-```bash
-conda create --name myenv python=3.11
-conda activate myenv
-pip install -r requirements.txt
-```
-
-### 3️⃣ Setup Environment Variables (Important)
 
 Create a `.env` file in your project root:
 
